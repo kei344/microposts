@@ -2,7 +2,7 @@
     <ul class="list-unstyled">
         @foreach ($users as $user)
             <li class="media">
-                <img class="mr-2 rounded" width="60" height="60" alt="">
+                <img class="mr-2 rounded" width="50" height="50" alt="">
                 <div class="media-body">
                     <div>
                         {{ $user->name }}
